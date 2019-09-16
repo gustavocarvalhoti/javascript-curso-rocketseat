@@ -1,6 +1,6 @@
 # Rocketseat - Curso de JavaScript básico
-###Funções
-###Manipulando Style
-###Manipulando componentes
-###Ajax
-###Axios
+Funções<br/>
+Manipulando Style<br/>
+Manipulando componentes<br/>
+Ajax<br/>
+Axios<br/>
