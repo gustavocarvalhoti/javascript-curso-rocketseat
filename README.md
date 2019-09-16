@@ -1,1 +1,1 @@
-# javascript-curso-rocketseat
+# Rocketseat - Curso de JavaScript básico
