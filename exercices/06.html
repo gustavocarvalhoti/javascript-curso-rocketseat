@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input id="nome" />
+</div>
+<script>
+    // Criar uma elemento texto
+    let textElement = document.createTextNode('Acessar o Google');
+
+    // Criar um link
+    let linkElement = document.createElement('a');
+    linkElement.setAttribute('href', 'https://www.google.com/');
+    linkElement.setAttribute('title', 'Site do google');
+    linkElement.appendChild(textElement);
+
+    // Colocar o link no DIV
+    let divElement = document.getElementById('app');
+    divElement.appendChild(linkElement);
+
+    // Remover componente
+    let nomeElement = document.getElementById('nome');
+    divElement.removeChild(nomeElement);
+</script>
+</body>
+</html>

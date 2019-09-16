@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" id="nome"/>
+    <button>add</button>
+</div>
+<script>
+    //Busca por ID
+    //let nome = document.getElementById('nome');
+    //Busca por TAG
+    //let nome = document.getElementsByTagName('input');
+    //Busca por referência
+    //let nome = document.querySelector('div#app input');
+    //console.log(nome);
+
+    let inputElement = document.querySelector('input');
+    let btnElement = document.querySelector('button');
+    btnElement.onclick = function () {
+        alert('BTN CLICADO: ' + inputElement.value);
+    }
+</script>
+</body>
+</html>

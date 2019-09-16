@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function sum(num1, num2) {
+        return num1 + num2;
+    }
+
+    function returnSex(sex) {
+        switch (sex) {
+            case 'M':
+                return 'Masculino';
+            case 'F':
+                return 'Feminino';
+            default:
+                return 'Indefinido'
+        }
+    }
+
+    function funcFor() {
+        for (let i = 0; i <= 10; i++) {
+            console.log(i);
+        }
+    }
+
+    function funcWhile() {
+        let j = 2423234;
+        while (j > 50) {
+            console.log(j);
+            j /= 5;
+        }
+    }
+    
+    function exibeAlgo() {
+        console.log("Hello World!");
+    }
+
+    //console.log(sum(10, 10));
+    //console.log(returnSex('M'));
+    //console.log(funcFor());
+    //console.log(funcWhile());
+
+    // Exibir a cada 2 segundos - varias vezes
+    //setInterval(exibeAlgo, 2000);
+
+    // Espera 2 segundos e executa
+    //setTimeout(exibeAlgo, 2000);
+</script>
+</body>
+</html>
